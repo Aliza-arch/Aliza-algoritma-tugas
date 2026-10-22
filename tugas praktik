@@ -1,0 +1,21 @@
+nilaitugas = int(input("masukan nilai tugas : "))
+uts = int(input("masukan nilai uts : "))
+uas = int(input("masukan nilai uas : "))
+kehadiranmahasiswa = int(input("masukan nilai kehadiran : "))
+
+
+nilai_akhir = (20/100 * nilaitugas) + (30/100 * uts) + (50/100 * uas)
+
+
+print("HASIL")
+print(f"nilai akhir : {nilai_akhir}")
+print(f"kehadiran : {kehadiranmahasiswa} %")
+
+
+
+if nilai_akhir >= 85 and kehadiranmahasiswa >= 90 and nilai_akhir % 2 == 0:
+    print("status     : lulus dengan predikat")
+elif nilai_akhir >= 75 and kehadiranmahasiswa >= 80:
+    print("status     : lulus")
+else:
+    print("status     : belum lulus")
