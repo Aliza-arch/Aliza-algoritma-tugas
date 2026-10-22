@@ -7,7 +7,7 @@ kehadiranmahasiswa = int(input("masukan nilai kehadiran : "))
 nilai_akhir = (20/100 * nilaitugas) + (30/100 * uts) + (50/100 * uas)
 
 
-print("HASIL")
+print("=====HASIL=====")
 print(f"nilai akhir : {nilai_akhir}")
 print(f"kehadiran : {kehadiranmahasiswa} %")
 
